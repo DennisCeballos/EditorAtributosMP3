@@ -3073,11 +3073,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\daceb\\OneDrive\\Documentos\\Usil CSix\\IngSoftwareGOD\\EditorAtributosMP3\\AtributosUI\\EditorAtributis.csproj",
+      "projectUniqueName": "D:\\AndoPregunton\\EditorAtributosMP3\\AtributosUI\\EditorAtributis.csproj",
       "projectName": "EditorAtributis",
-      "projectPath": "C:\\Users\\daceb\\OneDrive\\Documentos\\Usil CSix\\IngSoftwareGOD\\EditorAtributosMP3\\AtributosUI\\EditorAtributis.csproj",
+      "projectPath": "D:\\AndoPregunton\\EditorAtributosMP3\\AtributosUI\\EditorAtributis.csproj",
       "packagesPath": "C:\\Users\\daceb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\daceb\\OneDrive\\Documentos\\Usil CSix\\IngSoftwareGOD\\EditorAtributosMP3\\AtributosUI\\obj\\",
+      "outputPath": "D:\\AndoPregunton\\EditorAtributosMP3\\AtributosUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\daceb\\AppData\\Roaming\\NuGet\\NuGet.Config",
