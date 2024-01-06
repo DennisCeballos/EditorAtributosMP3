@@ -27,3 +27,33 @@ C:\Users\daceb\OneDrive\Documentos\Usil CSix\IngSoftwareGOD\EditorAtributosMP3\A
 C:\Users\daceb\OneDrive\Documentos\Usil CSix\IngSoftwareGOD\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.genruntimeconfig.cache
 C:\Users\daceb\OneDrive\Documentos\Usil CSix\IngSoftwareGOD\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\ref\EditorAtributis.dll
 C:\Users\daceb\OneDrive\Documentos\Usil CSix\IngSoftwareGOD\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.frmEmergencia.resources
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\EditorAtributis.exe
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\EditorAtributis.dll.config
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\EditorAtributis.deps.json
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\EditorAtributis.runtimeconfig.json
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\EditorAtributis.dll
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\EditorAtributis.pdb
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.dll
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.Core.dll
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.Sensors.dll
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.csproj.AssemblyReference.cache
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.UI.FormInternet.resources
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\AtributosUI.frmAdminArchivos.resources
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.frmDirectorio.resources
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\AtributosUI.frmEditorPropiedades.resources
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\AtributosUI.frmListaSugerenciaAutores.resources
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.Properties.Resources.resources
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.csproj.GenerateResource.cache
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.GeneratedMSBuildEditorConfig.editorconfig
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.AssemblyInfoInputs.cache
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.AssemblyInfo.cs
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.csproj.CoreCompileInputs.cache
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.csproj.CopyComplete
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.dll
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\refint\EditorAtributis.dll
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.pdb
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.genruntimeconfig.cache
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\ref\EditorAtributis.dll

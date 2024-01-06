@@ -7,6 +7,7 @@ using System.Linq;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
+using System.Configuration;
 
 namespace AtributosUI
 {
@@ -40,7 +41,7 @@ namespace AtributosUI
         public static void GuardarArchivoArtistas(List<string> listaArtistas)
         {
             //path del archivo
-            string archivoBinario = archivoBinarioArtistas;
+            string archivoBinario = ConfigurationManager.AppSettings["ArchivoBinarioArtistas"];
 
             //Crear un BinaryFormatter para escribir en binario
             BinaryFormatter formatter = new BinaryFormatter(); //Lol esto me ayudo chatGPT
@@ -69,7 +70,7 @@ namespace AtributosUI
         public static List<string> LeerArchivoArtistas()
         {
             //path del archivo
-            string archivoBinario = archivoBinarioArtistas;
+            string archivoBinario = ConfigurationManager.AppSettings["ArchivoBinarioArtistas"];
 
             BinaryFormatter formatter = new BinaryFormatter(); //Lol esto me ayudo chatGPT
             List<string> listaDatos = new List<string>();

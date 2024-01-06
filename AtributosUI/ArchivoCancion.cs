@@ -67,6 +67,7 @@ namespace AtributosBE
             return msg;       
         }
 
+        //Funcion para cambiar los datos del archivo actual
         public void cambiarDatos(string _titulo, string[] _artista, string _album)
         {
             ArchivoCancion cancionRepuesto = new ArchivoCancion(this);
