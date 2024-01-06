@@ -13,7 +13,6 @@ namespace AtributosUI
 {
     public static class Utils
     {
-        static string archivoBinarioArtistas = "dataArtistas.bin";
 
         //Guarda todos los datos de la cancion en
         public static void CambiarPropiedadesArchivo(ArchivoCancion objCancion)
@@ -41,7 +40,7 @@ namespace AtributosUI
         public static void GuardarArchivoArtistas(List<string> listaArtistas)
         {
             //path del archivo
-            string archivoBinario = ConfigurationManager.AppSettings["ArchivoBinarioArtistas"];
+            string archivoBinario = EditorAtributis.Properties.Settings.Default.ArchivoBinarioArtistas;
 
             //Crear un BinaryFormatter para escribir en binario
             BinaryFormatter formatter = new BinaryFormatter(); //Lol esto me ayudo chatGPT
@@ -70,7 +69,7 @@ namespace AtributosUI
         public static List<string> LeerArchivoArtistas()
         {
             //path del archivo
-            string archivoBinario = ConfigurationManager.AppSettings["ArchivoBinarioArtistas"];
+            string archivoBinario = EditorAtributis.Properties.Settings.Default.ArchivoBinarioArtistas;
 
             BinaryFormatter formatter = new BinaryFormatter(); //Lol esto me ayudo chatGPT
             List<string> listaDatos = new List<string>();

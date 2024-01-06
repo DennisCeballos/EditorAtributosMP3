@@ -1,6 +1,6 @@
 ﻿namespace EditorAtributis
 {
-    partial class frmDirectorio
+    partial class frmCambioDirectorio
     {
         /// <summary>
         /// Required designer variable.
@@ -59,7 +59,6 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(470, 25);
             textBox1.TabIndex = 2;
-            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // btnEjecutar
             // 

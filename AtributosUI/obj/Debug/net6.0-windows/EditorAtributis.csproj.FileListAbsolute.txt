@@ -42,7 +42,6 @@ D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\Microso
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.csproj.AssemblyReference.cache
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.UI.FormInternet.resources
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\AtributosUI.frmAdminArchivos.resources
-D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.frmDirectorio.resources
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\AtributosUI.frmEditorPropiedades.resources
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\AtributosUI.frmListaSugerenciaAutores.resources
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.Properties.Resources.resources
@@ -57,3 +56,4 @@ D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\refint\
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.pdb
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.genruntimeconfig.cache
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\ref\EditorAtributis.dll
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.frmCambioDirectorio.resources

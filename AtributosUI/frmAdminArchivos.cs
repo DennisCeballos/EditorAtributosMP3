@@ -1,8 +1,10 @@
 ﻿using AtributosBE;
+using EditorAtributis;
 using Microsoft.WindowsAPICodePack.Shell;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
@@ -18,8 +20,14 @@ namespace AtributosUI
     public partial class frmAdminArchivos : Form
     {
 
+        /*
+         * DIRECCIONES DE PRUEBA YO
+         * D:\Musica Publica\COMPILADOGLOBAL\LIMPIo
+         * C:\Users\daceb\Music\4K YouTube to MP3
+         * */
+
         private List<ArchivoCancion> lstCanciones;
-        private string direccionArchivos = @"D:\Musica Publica\COMPILADOGLOBAL\LIMPIo"; //@"C:\Users\daceb\Music\4K YouTube to MP3";
+        private string direccionArchivos = EditorAtributis.Properties.Settings.Default.PathDirectorioCanciones; 
 
         private Queue<string> colaArchivosEditar;
 
@@ -187,14 +195,19 @@ namespace AtributosUI
             frmSugerenciaAutores.Dispose();
         }
 
+        private void direccionDeArchivosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frmCambiarDireccionArchivos = new frmCambioDirectorio();
+            frmCambiarDireccionArchivos.ShowDialog();
+            Application.Restart();
+            Environment.Exit(0); //Con esto se especifica que fue un "clean shutdown"
+            
+        }
+
         private void configurarToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void direccionDeArchivosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
