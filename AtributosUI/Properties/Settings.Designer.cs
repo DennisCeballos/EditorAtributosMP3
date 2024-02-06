@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EditorAtributis.Properties {
+namespace EditorAtributos.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -34,7 +34,7 @@ namespace EditorAtributis.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("D:\\Musica Publica\\COMPILADOGLOBAL\\LIMPIo")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string PathDirectorioCanciones {
             get {
                 return ((string)(this["PathDirectorioCanciones"]));

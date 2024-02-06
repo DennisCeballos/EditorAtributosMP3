@@ -164,7 +164,7 @@
             // sugerenciaDeAutoresToolStripMenuItem
             // 
             sugerenciaDeAutoresToolStripMenuItem.Name = "sugerenciaDeAutoresToolStripMenuItem";
-            sugerenciaDeAutoresToolStripMenuItem.Size = new Size(208, 22);
+            sugerenciaDeAutoresToolStripMenuItem.Size = new Size(255, 22);
             sugerenciaDeAutoresToolStripMenuItem.Text = "Sugerencia de Autores";
             sugerenciaDeAutoresToolStripMenuItem.Click += sugerenciaDeAutoresToolStripMenuItem_Click;
             // 

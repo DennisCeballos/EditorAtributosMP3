@@ -28,7 +28,6 @@ C:\Users\daceb\OneDrive\Documentos\Usil CSix\IngSoftwareGOD\EditorAtributosMP3\A
 C:\Users\daceb\OneDrive\Documentos\Usil CSix\IngSoftwareGOD\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\ref\EditorAtributis.dll
 C:\Users\daceb\OneDrive\Documentos\Usil CSix\IngSoftwareGOD\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.frmEmergencia.resources
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\EditorAtributis.exe
-D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\EditorAtributis.dll.config
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\EditorAtributis.deps.json
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\EditorAtributis.runtimeconfig.json
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\EditorAtributis.dll
@@ -57,3 +56,6 @@ D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorA
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.genruntimeconfig.cache
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\ref\EditorAtributis.dll
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributis.frmCambioDirectorio.resources
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\App.config
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\Properties\Settings.settings
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\EditorAtributis.dll.config

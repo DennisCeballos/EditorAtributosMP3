@@ -1,5 +1,5 @@
 ﻿using AtributosBE;
-using EditorAtributis;
+using EditorAtributos;
 using Microsoft.WindowsAPICodePack.Shell;
 using System;
 using System.Collections.Generic;
@@ -26,9 +26,9 @@ namespace AtributosUI
          * C:\Users\daceb\Music\4K YouTube to MP3
          * */
 
-        private List<ArchivoCancion> lstCanciones;
-        private string direccionArchivos = EditorAtributis.Properties.Settings.Default.PathDirectorioCanciones; 
-
+        private readonly List<ArchivoCancion> lstCanciones;
+        private readonly string direccionArchivos;
+        
         private Queue<string> colaArchivosEditar;
 
         public frmAdminArchivos()
@@ -37,6 +37,9 @@ namespace AtributosUI
 
             lstCanciones = new List<ArchivoCancion>();
             colaArchivosEditar = new Queue<string>();
+
+            //Definir el directorio de archivos a partir de los "Settings" del programa
+            direccionArchivos = EditorAtributos.Properties.Settings.Default.PathDirectorioCanciones;
         }
 
         private void frmAdminArchivos_Load(object sender, EventArgs e)
@@ -197,11 +200,19 @@ namespace AtributosUI
 
         private void direccionDeArchivosToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //Guardar el directorio actual
+            string actual = EditorAtributos.Properties.Settings.Default.PathDirectorioCanciones;
+
             var frmCambiarDireccionArchivos = new frmCambioDirectorio();
             frmCambiarDireccionArchivos.ShowDialog();
-            Application.Restart();
-            Environment.Exit(0); //Con esto se especifica que fue un "clean shutdown"
-            
+
+            //Si es diferente, implica que se cambio el directorio
+            if (actual != EditorAtributos.Properties.Settings.Default.PathDirectorioCanciones)
+            {
+                Application.Restart();
+                Environment.Exit(0); //Con esto se especifica que fue un "clean shutdown"
+            }
+
         }
 
         private void configurarToolStripMenuItem_Click(object sender, EventArgs e)

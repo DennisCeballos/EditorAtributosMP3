@@ -8,7 +8,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using System.Diagnostics;
 
-namespace EditorAtributis.UI
+namespace EditorAtributos.UI
 {
 
     public class FormInternet : Form

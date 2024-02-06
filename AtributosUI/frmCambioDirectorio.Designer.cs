@@ -1,4 +1,4 @@
-﻿namespace EditorAtributis
+﻿namespace EditorAtributos
 {
     partial class frmCambioDirectorio
     {
@@ -30,7 +30,6 @@
         {
             components = new System.ComponentModel.Container();
             label1 = new Label();
-            progressBar1 = new ProgressBar();
             textBox1 = new TextBox();
             btnEjecutar = new Button();
             label2 = new Label();
@@ -42,16 +41,10 @@
             label1.AutoSize = true;
             label1.Location = new Point(30, 35);
             label1.Name = "label1";
-            label1.Size = new Size(143, 17);
+            label1.Size = new Size(215, 17);
             label1.TabIndex = 0;
-            label1.Text = "Direccion de la carpeta";
-            // 
-            // progressBar1
-            // 
-            progressBar1.Location = new Point(30, 154);
-            progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(624, 23);
-            progressBar1.TabIndex = 1;
+            label1.Text = "Direccion de carpeta con canciones";
+            label1.Click += label1_Click;
             // 
             // textBox1
             // 
@@ -62,9 +55,9 @@
             // 
             // btnEjecutar
             // 
-            btnEjecutar.Location = new Point(564, 35);
+            btnEjecutar.Location = new Point(546, 35);
             btnEjecutar.Name = "btnEjecutar";
-            btnEjecutar.Size = new Size(90, 74);
+            btnEjecutar.Size = new Size(97, 74);
             btnEjecutar.TabIndex = 3;
             btnEjecutar.Text = "Ejecutar Cambio";
             btnEjecutar.UseVisualStyleBackColor = true;
@@ -79,19 +72,19 @@
             label2.Size = new Size(17, 21);
             label2.TabIndex = 4;
             label2.Text = "?";
+            toolTip1.SetToolTip(label2, "Ingresa la direccion absoluta de la carpeta\r\nque se encuentre tus archivos.\r\nejem: C:\\Users\\YoUsuario\\Music");
             label2.Click += label2_Click;
             // 
-            // frmEmergencia
+            // frmCambioDirectorio
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(707, 231);
+            ClientSize = new Size(665, 142);
             Controls.Add(label2);
             Controls.Add(btnEjecutar);
             Controls.Add(textBox1);
-            Controls.Add(progressBar1);
             Controls.Add(label1);
-            Name = "frmEmergencia";
+            Name = "frmCambioDirectorio";
             Text = "Form de EMERGENCIA";
             Load += frmEmergencia_Load;
             ResumeLayout(false);
@@ -101,7 +94,6 @@
         #endregion
 
         private Label label1;
-        private ProgressBar progressBar1;
         private TextBox textBox1;
         private Button btnEjecutar;
         private Label label2;

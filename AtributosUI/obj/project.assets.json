@@ -3073,9 +3073,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AndoPregunton\\EditorAtributosMP3\\AtributosUI\\EditorAtributis.csproj",
-      "projectName": "EditorAtributis",
-      "projectPath": "D:\\AndoPregunton\\EditorAtributosMP3\\AtributosUI\\EditorAtributis.csproj",
+      "projectUniqueName": "D:\\AndoPregunton\\EditorAtributosMP3\\AtributosUI\\EditorAtributos.csproj",
+      "projectName": "EditorAtributos",
+      "projectPath": "D:\\AndoPregunton\\EditorAtributosMP3\\AtributosUI\\EditorAtributos.csproj",
       "packagesPath": "C:\\Users\\daceb\\.nuget\\packages\\",
       "outputPath": "D:\\AndoPregunton\\EditorAtributosMP3\\AtributosUI\\obj\\",
       "projectStyle": "PackageReference",

@@ -49,7 +49,7 @@
             // 
             // picBIcono
             // 
-            picBIcono.BackgroundImage = EditorAtributis.Properties.Resources.imagenDemp3;
+            picBIcono.BackgroundImage = EditorAtributos.Properties.Resources.imagenDemp3;
             picBIcono.BackgroundImageLayout = ImageLayout.Center;
             picBIcono.Location = new Point(35, 36);
             picBIcono.Name = "picBIcono";

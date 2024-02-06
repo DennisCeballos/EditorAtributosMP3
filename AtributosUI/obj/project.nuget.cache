@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MlNn6L1Tp3ZamCLvSEiB7n9YI9jP4LNEAHLb4ucpdEvB0uiZWkPGdw9ZjqVQpAUKKoTDjbsp+Q5v3A5bGxdY3A==",
+  "dgSpecHash": "4YYTPt3fFylRSSccJmb4dxltfpU8u+b/zKJxAWNKRYM9vqda8vLiP9MXB3jzHYNmfHh67AY7BSc1qynA/VFS+g==",
   "success": true,
-  "projectFilePath": "D:\\AndoPregunton\\EditorAtributosMP3\\AtributosUI\\EditorAtributis.csproj",
+  "projectFilePath": "D:\\AndoPregunton\\EditorAtributosMP3\\AtributosUI\\EditorAtributos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\daceb\\.nuget\\packages\\microsoft-windowsapicodepack-core\\1.1.5\\microsoft-windowsapicodepack-core.1.1.5.nupkg.sha512",
     "C:\\Users\\daceb\\.nuget\\packages\\microsoft.netcore.platforms\\7.0.0\\microsoft.netcore.platforms.7.0.0.nupkg.sha512",

@@ -11,17 +11,17 @@ namespace AtributosUI
     public partial class frmEditorPropiedades : Form
     {
 
-        private string pathArchivo = @"C:\Users\daceb\Music\4K YouTube to MP3\505.mp3"; //Este esta aqui solo por razones de debug
-
         private readonly ArchivoCancion datosCancion;
 
         private AutoCompleteStringCollection lstSugerenciasAutor;
 
-        public string lastBotonApretadoCierre = BOTON_DEFAULT;
-        public static string BOTON_DEFAULT = "SalidaDefecto";
-        public static string BOTON_CANCELAR = "btnCancelar";
-        public static string BOTON_SALIR = "btnSalirCola";
-        public static string BOTON_ACEPTAR = "btnAceptar/Seguir";
+        public string lastBotonApretadoCierre = BOTON_DEFAULT;//lo mismo que el BOTON_DEFAULT
+
+        public const string BOTON_DEFAULT    = "SalidaDefecto";
+        public const string BOTON_CANCELAR   = "btnCancelar";
+        public const string BOTON_SALIR      = "btnSalirCola";
+        public const string BOTON_ACEPTAR    = "btnAceptar/Seguir";
+        
 
         public frmEditorPropiedades(string pathArchivo)
         {
