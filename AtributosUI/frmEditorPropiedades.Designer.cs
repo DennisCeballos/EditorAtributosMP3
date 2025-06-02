@@ -44,6 +44,7 @@
             listBoxDebug = new ListBox();
             lblAutores = new Label();
             btnAumentar = new Button();
+            btnAutocompletar = new Button();
             ((System.ComponentModel.ISupportInitialize)picBIcono).BeginInit();
             SuspendLayout();
             // 
@@ -203,12 +204,23 @@
             btnAumentar.UseVisualStyleBackColor = true;
             btnAumentar.Click += btnAumentar_Click;
             // 
+            // btnAutocompletar
+            // 
+            btnAutocompletar.Location = new Point(269, 247);
+            btnAutocompletar.Name = "btnAutocompletar";
+            btnAutocompletar.Size = new Size(150, 30);
+            btnAutocompletar.TabIndex = 18;
+            btnAutocompletar.Text = "Autocompletar";
+            btnAutocompletar.UseVisualStyleBackColor = true;
+            btnAutocompletar.Click += button1_Click;
+            // 
             // frmEditorPropiedades
             // 
             AcceptButton = btnAceptar;
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(899, 381);
+            Controls.Add(btnAutocompletar);
             Controls.Add(btnAumentar);
             Controls.Add(lblAutores);
             Controls.Add(listBoxDebug);
@@ -253,5 +265,6 @@
         private ListBox listBoxDebug;
         private Label lblAutores;
         private Button btnAumentar;
+        private Button btnAutocompletar;
     }
 }

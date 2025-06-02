@@ -10,9 +10,6 @@ D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorA
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributos.csproj.CoreCompileInputs.cache
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributos.UI.FormInternet.resources
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\EditorAtributos.exe
-D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\App.config
-D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\Properties\Settings.settings
-D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\EditorAtributos.dll.config
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\EditorAtributos.deps.json
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\EditorAtributos.runtimeconfig.json
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\EditorAtributos.dll
@@ -30,3 +27,10 @@ D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\refint\
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributos.pdb
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\EditorAtributos.genruntimeconfig.cache
 D:\AndoPregunton\EditorAtributosMP3\AtributosUI\obj\Debug\net6.0-windows\ref\EditorAtributos.dll
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\EditorAtributos.dll.config
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\Properties\Settings.settings
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\Resources\App.config
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+D:\AndoPregunton\EditorAtributosMP3\AtributosUI\bin\Debug\net6.0-windows\System.Text.Json.dll

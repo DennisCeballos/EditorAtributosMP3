@@ -8,6 +8,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 using System.Configuration;
+using System.Text.RegularExpressions;
 
 namespace AtributosUI
 {
@@ -99,6 +100,15 @@ namespace AtributosUI
             Debug.WriteLine("------\n");
             
             return listaDatos;
+        }
+
+
+        //Funcion que corrobora si una direccion de Windows ingresada es Valida
+        public static bool RevisarDireccionPathValida(string cadena)
+        {
+            //Patron Regex para validar una direccion PATH de windows
+            string pattern = @"^([a-zA-Z]:(\\|\/))([\w\s.()~!@#$%^&()\[\]{}+=]+(\\|\/))*";
+            return Regex.IsMatch(cadena, pattern);
         }
 
     }

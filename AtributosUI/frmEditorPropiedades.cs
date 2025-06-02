@@ -4,6 +4,7 @@ using Microsoft.WindowsAPICodePack.Shell.PropertySystem;
 using System.Diagnostics;
 using System.Diagnostics.Eventing.Reader;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Text.Json;
 using System.Windows.Input;
 
 namespace AtributosUI
@@ -17,11 +18,11 @@ namespace AtributosUI
 
         public string lastBotonApretadoCierre = BOTON_DEFAULT;//lo mismo que el BOTON_DEFAULT
 
-        public const string BOTON_DEFAULT    = "SalidaDefecto";
-        public const string BOTON_CANCELAR   = "btnCancelar";
-        public const string BOTON_SALIR      = "btnSalirCola";
-        public const string BOTON_ACEPTAR    = "btnAceptar/Seguir";
-        
+        public const string BOTON_DEFAULT = "SalidaDefecto";
+        public const string BOTON_CANCELAR = "btnCancelar";
+        public const string BOTON_SALIR = "btnSalirCola";
+        public const string BOTON_ACEPTAR = "btnAceptar/Seguir";
+
 
         public frmEditorPropiedades(string pathArchivo)
         {
@@ -132,6 +133,52 @@ namespace AtributosUI
             }
 
             btnAumentar.Location = new Point(this.Width - 30, btnAumentar.Location.Y);
+        }
+
+        private async void button1_Click(object sender, EventArgs e)
+        {
+            // Obtener la info desde la API de Audio The Audio DB
+            string title = tbTitle.Text;
+            string artist = tbArtist.Text;
+            string apiUrl = $"https://theaudiodb.com/api/v1/json/2/searchtrack.php?s={artist}&t={title}";
+            try
+            {
+                using HttpClient client = new HttpClient();
+                string json = await client.GetStringAsync(apiUrl);
+
+                var response = JsonSerializer.Deserialize<AudioDBResponse>(json);
+
+                if (response?.track != null && response.track.Length > 0)
+                {
+                    var track = response.track[0];
+                    MessageBox.Show($"Track: {track.strTrack}\nAlbum: {track.strAlbum}\nGenre: {track.strGenre}");
+
+                    tbAlbum.Text = track.strAlbum;
+                }
+                else
+                {
+                    MessageBox.Show("No track found.");
+                    btnAutocompletar.Enabled = false;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
+        }
+
+        // Data classes for JSON deserialization
+        public class AudioDBResponse
+        {
+            public Track[]? track { get; set; }
+        }
+
+        public class Track
+        {
+            public string strTrack { get; set; }
+            public string strAlbum { get; set; }
+            public string strGenre { get; set; }
+            public string strDescriptionEN { get; set; }
         }
     }
 }

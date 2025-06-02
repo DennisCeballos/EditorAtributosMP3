@@ -34,6 +34,7 @@
             btnEjecutar = new Button();
             label2 = new Label();
             toolTip1 = new ToolTip(components);
+            labelError = new Label();
             SuspendLayout();
             // 
             // label1
@@ -75,17 +76,33 @@
             toolTip1.SetToolTip(label2, "Ingresa la direccion absoluta de la carpeta\r\nque se encuentre tus archivos.\r\nejem: C:\\Users\\YoUsuario\\Music");
             label2.Click += label2_Click;
             // 
+            // labelError
+            // 
+            labelError.AutoSize = true;
+            labelError.BackColor = SystemColors.Control;
+            labelError.ForeColor = Color.Red;
+            labelError.Location = new Point(30, 127);
+            labelError.Name = "labelError";
+            labelError.Size = new Size(217, 17);
+            labelError.TabIndex = 5;
+            labelError.Text = "Debes ingresar una direccion valida";
+            labelError.Visible = false;
+            labelError.Click += label3_Click;
+            // 
             // frmCambioDirectorio
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(665, 142);
+            ClientSize = new Size(665, 165);
+            Controls.Add(labelError);
             Controls.Add(label2);
             Controls.Add(btnEjecutar);
             Controls.Add(textBox1);
             Controls.Add(label1);
             Name = "frmCambioDirectorio";
-            Text = "Form de EMERGENCIA";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "Form cambio Directorio";
+            FormClosing += botonCierre;
             Load += frmEmergencia_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -98,5 +115,6 @@
         private Button btnEjecutar;
         private Label label2;
         private ToolTip toolTip1;
+        private Label labelError;
     }
 }

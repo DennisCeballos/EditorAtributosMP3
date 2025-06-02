@@ -18,11 +18,12 @@ namespace AtributosUI
 
             Debug.WriteLine(Settings.Default.PathDirectorioCanciones);
 
-            if ( Settings.Default.PathDirectorioCanciones.Equals(string.Empty) )
+            if ( Settings.Default.PathDirectorioCanciones.Equals(string.Empty) || Settings.Default.PathDirectorioCanciones == " ")
             {
                 var frmSugerenciaAutores = new frmCambioDirectorio();
                 frmSugerenciaAutores.ShowDialog();
                 frmSugerenciaAutores.Dispose();
+
                 Application.Run(new frmAdminArchivos());
             }
             else
